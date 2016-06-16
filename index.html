@@ -5,15 +5,23 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
 
+      <link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <base href="/">
     </head>
 
-    <body>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- start of body-->
+    <body ng-app="resume">
+      <div ui-view="home">
+        <div ui-view="header"></div>
+        <div ui-view="body"></div>
+        <div ui-view="footer"></div>
+      </div>
+     
+     <!--External js Dependency-->
+      <script type="text/javascript" src="static/js/lib/jquery-3.0.0.js"></script>
       <script type="text/javascript" src="static/js/lib/angular.js"></script>
       <script type="text/javascript" src="static/js/lib/angular-ui-router.js"></script>
       <script type="text/javascript" src="static/js/materialize.min.js"></script>  
@@ -22,21 +30,6 @@
       <script type="text/javascript" src="static/js/directive.js"></script>
       <script type="text/javascript" src="static/js/service.js"></script>
       <script type="text/javascript" src="static/js/controller.js"></script>
-      
-<div data-ng-app="resumengapp">
-        <table >
-            <tr style="border:double;" ><td colspan="2"><h1>Resume</h1>
-</td></tr>
-             <tr ><td style=" border:double; width:100px"><a data-ui-sref="home">Home</a><hr />
-                 <a data-ui-sref="Page1">Page1</a><hr />
-                 <a data-ui-sref="Page2">Page2</a><hr/>
-</td><td style="border:double;"><ui-view></ui-view></td></tr>
-
-        </table>
-
-       </div>
-
-
     </body>
   </html>
         
