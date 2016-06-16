@@ -16,35 +16,25 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="static/js/lib/angular.js"></script>
       <script type="text/javascript" src="static/js/lib/angular-ui-router.js"></script>
-      <script type="text/javascript" src="static/js/materialize.min.js"></script>
+      <script type="text/javascript" src="static/js/materialize.min.js"></script>  
+      <script type="text/javascript" src="static/js/lib/materialize.js"></script> 
       <script type="text/javascript" src="static/js/app.js"></script>
       <script type="text/javascript" src="static/js/directive.js"></script>
       <script type="text/javascript" src="static/js/service.js"></script>
       <script type="text/javascript" src="static/js/controller.js"></script>
-
-        <table ng-app="resumengapp">
-            <tr ><td colspan="2"><h1>Resume</h1>
+      
+<div data-ng-app="resumengapp">
+        <table >
+            <tr style="border:double;" ><td colspan="2"><h1>Resume</h1>
 </td></tr>
-             <tr ><td ><a data-ui-sref="home">Home</a><br />
-                 <a data-ui-sref="Page1">Page1</a><br/>
-                 <a data-ui-sref="Page2">Page2</a><br/>
-</td><td><ui-view></ui-view></td></tr>
+             <tr ><td style=" border:double; width:100px"><a data-ui-sref="home">Home</a><hr />
+                 <a data-ui-sref="Page1">Page1</a><hr />
+                 <a data-ui-sref="Page2">Page2</a><hr/>
+</td><td style="border:double;"><ui-view></ui-view></td></tr>
 
         </table>
 
-        <script>
-            var app = angular.module('resumengapp', []).config(['ui.router'], function ($stateProvide) {
-                $stateProvider
-                .state('home',
-                {
-                    url: Home,
-                  //  urlTemplate: {"Hello Welcome to Home Page"};
-                    })
-
-
-            });
-
-        </script>
+       </div>
 
 
     </body>
