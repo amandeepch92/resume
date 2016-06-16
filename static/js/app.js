@@ -1,4 +1,4 @@
-var app = angular.module('resume', ['ui.router']);
+var app = angular.module('resume', ['ui.router','appControllers']);
 
 /***State Routing Start***/  
 app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
@@ -8,7 +8,7 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
         .state('home', {
           url: '/',
           views: {
-            'home': { templateUrl: 'index.html'},
+            'home': { templateUrl: 'index.html',controller:'MyController'},
             'header@home': { templateUrl: 'partials/header.html' },
             'body@home': { templateUrl: 'partials/body.html'},
             'footer@home': { templateUrl: 'partials/footer.html' }
