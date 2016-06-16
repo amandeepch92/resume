@@ -22,7 +22,29 @@
       <script type="text/javascript" src="static/js/service.js"></script>
       <script type="text/javascript" src="static/js/controller.js"></script>
 
-<h1>Resume</h1>
+        <table ng-app="resumengapp">
+            <tr ><td colspan="2"><h1>Resume</h1>
+</td></tr>
+             <tr ><td ><a data-ui-sref="home">Home</a><br />
+                 <a data-ui-sref="Page1">Page1</a><br/>
+                 <a data-ui-sref="Page2">Page2</a><br/>
+</td><td><ui-view></ui-view></td></tr>
+
+        </table>
+
+        <script>
+            var app = angular.module('resumengapp', []).config(['ui.router'], function ($stateProvide) {
+                $stateProvider
+                .state('home',
+                {
+                    url: Home,
+                  //  urlTemplate: {"Hello Welcome to Home Page"};
+                    })
+
+
+            });
+
+        </script>
 
 
     </body>
