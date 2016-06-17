@@ -15,7 +15,7 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
                 },
                 'body@home': {
-                  templateUrl: 'templates/body.html'
+                    templateUrl: 'static/html/Aboutme.html'
                 },
                 'footer@home': {
                   templateUrl: 'templates/assets/footer.html'
@@ -32,7 +32,7 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
                 },
                 'body@aboutme': {
-                    templateUrl: 'templates/body.html'
+                    templateUrl: 'static/html/Aboutme.html'
                 },
                 'footer@aboutme': {
                   templateUrl: 'templates/assets/footer.html'
