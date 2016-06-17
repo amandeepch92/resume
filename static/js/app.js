@@ -29,13 +29,13 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/main.html'
                 },
                 'nav@aboutme': {
-                  templateUrl: 'templates/nav.html'
+                  templateUrl: 'templates/assets/nav.html'
                 },
                 'body@aboutme': {
                   templateUrl: 'templates/body.html'
                 },
                 'footer@aboutme': {
-                  templateUrl: 'templates/footer.html'
+                  templateUrl: 'templates/assets/footer.html'
                 }
               }
         })
