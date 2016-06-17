@@ -18,9 +18,31 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
         parent: 'home',
         url: 'About Me',
         views: {
-            'body@home': { templateUrl: 'static/html/Contactus.html' },    
+            'body@home': { templateUrl: 'static/html/Aboutme.html' },    
       }
-    });
+    })
+     .state('home.Resume', {
+         parent: 'home',
+         url: 'Resume',
+         views: {
+             'body@home': { templateUrl: 'static/html/resume.html' },
+         }
+     })
+    .state('home.Contact', {
+        parent: 'home',
+        url: 'Contact',
+        views: {
+            'body@home': { templateUrl: 'static/html/contact.html' },
+        }
+    })
+    .state('home.Resources', {
+        parent: 'home',
+        url: 'Resources',
+        views: {
+            'body@home': { templateUrl: 'static/html/resource.html' },
+        }
+    })
+    ;
         
    $locationProvider.html5Mode(true);
   
