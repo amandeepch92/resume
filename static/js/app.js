@@ -6,21 +6,40 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
     
     $stateProvider
         .state('home', {
-            url: '/',
-            views: {
-                'home': { templateUrl: 'index.html', controller: 'MyController' },
-                'header@home': { templateUrl: 'partials/header.html' },
-                'body@home': { templateUrl: 'partials/body.html' },
-                'footer@home': { templateUrl: 'partials/footer.html' }
-            }
+              url: '/',
+              views: {
+                '': {
+                  templateUrl: 'templates/main.html'
+                },
+                'nav@home': {
+                  templateUrl: 'templates/assets/nav.html'
+                },
+                'body@home': {
+                  templateUrl: 'templates/body.html'
+                },
+                'footer@home': {
+                  templateUrl: 'templates/assets/footer.html'
+                }
+              }
         })
-    .state('home.Aboutme', {
-        parent: 'home',
-        url: 'About Me',
-        views: {
-            'body@home': { templateUrl: 'static/html/Contactus.html' },    
-      }
-    });
+        .state('aboutme', {
+            url: '/aboutme',
+              views: {
+                '': {
+                  templateUrl: 'templates/main.html'
+                },
+                'nav@aboutme': {
+                  templateUrl: 'templates/nav.html'
+                },
+                'body@aboutme': {
+                  templateUrl: 'templates/body.html'
+                },
+                'footer@aboutme': {
+                  templateUrl: 'templates/footer.html'
+                }
+              }
+        })
+    
         
    $locationProvider.html5Mode(true);
   

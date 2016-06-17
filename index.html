@@ -14,21 +14,15 @@
 
     <!-- start of body-->
     <body ng-app="resume">
-      <div ui-view="home">
-        <div ui-view="header"></div>
-        <div ui-view="body"></div>
-        {{data}}
-        <div ui-view="footer"></div>
-      </div>
-     
+       <div ui-view="nav"></div>
+       <div ui-view></div>
+       <div ui-view="aboutme"></div>
      <!--External js Dependency-->
       <script type="text/javascript" src="static/js/lib/jquery-3.0.0.js"></script>
       <script type="text/javascript" src="static/js/lib/angular.js"></script>
       <script type="text/javascript" src="static/js/lib/angular-ui-router.js"></script>
       <script type="text/javascript" src="static/js/lib/materialize.js"></script> 
       <script type="text/javascript" src="static/js/app.js"></script>
-      <!--<script type="text/javascript" src="static/js/directive.js"></script>
-      <script type="text/javascript" src="static/js/service.js"></script>-->
       <script type="text/javascript" src="static/js/controller.js"></script>
     </body>
   </html>
