@@ -1,8 +1,12 @@
 var appControllers = angular.module('appControllers',[]);
 
-appControllers.controller('aboutMeController', function($scope,$http,$stateParams){
-     $scope.data='aman';
-});	
+appControllers.controller('aboutMeController', function($scope,$http,$stateParams,$state){
+    $scope.data = 'aman';
+    $http.get("static/json/records.json")
+    .then(function (response) {
+        $scope.myWelcome = response.data.records;
+    });
+   });	
 
 appControllers.controller('resumeController',function($scope,$http,$stateParams){
      $scope.resume ='test';
