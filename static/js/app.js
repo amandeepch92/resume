@@ -15,7 +15,8 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
                 },
                 'body@home': {
-                    templateUrl: 'static/html/Aboutme.html'
+                    templateUrl: 'static/html/Aboutme.html',
+                    controller:'aboutMeController'
                 },
                 'footer@home': {
                   templateUrl: 'templates/assets/footer.html'
@@ -32,7 +33,8 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
                 },
                 'body@aboutme': {
-                    templateUrl: 'static/html/Aboutme.html'
+                    templateUrl: 'static/html/Aboutme.html',
+                    controller:'aboutMeController'
                 },
                 'footer@aboutme': {
                   templateUrl: 'templates/assets/footer.html'
@@ -49,7 +51,8 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
                 },
                 'body@resume': {
-                    templateUrl: 'static/html/resume.html'
+                    templateUrl: 'static/html/resume.html',
+                    controller:'resumeController'
                 },
                 'footer@resume': {
                   templateUrl: 'templates/assets/footer.html'
@@ -67,7 +70,8 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
               },
               'body@contact': {
-                  templateUrl: 'static/html/contact.html'
+                  templateUrl: 'static/html/contact.html',
+                  controller:'contactController'
               },
               'footer@contact': {
                   templateUrl: 'templates/assets/footer.html'
@@ -84,7 +88,8 @@ app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                   templateUrl: 'templates/assets/nav.html'
               },
               'body@resources': {
-                  templateUrl: 'static/html/resource.html'
+                  templateUrl: 'static/html/resource.html',
+                  controller:'resourceController'
               },
               'footer@resources': {
                   templateUrl: 'templates/assets/footer.html'
