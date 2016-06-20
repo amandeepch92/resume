@@ -1,22 +1,22 @@
 {
 
 	"basics": {
-		"name": "Your first and last name",
+		"name": "Anil Sheoran",
 		"label": "",
 		"picture": "",
-		"email": "Your email address",
-		"phone": "A phone number, with any formatting you like. E.g. (555) 555-5555.",
+		"email": "Anilkumar.sheoran@gmail.com",
+		"phone": "9980758589",
 		"degree": "",
 		"website": "Your website URL",
-		"summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks.",
+		"summary": "I'm Software Developer in Accenture Pvt Ltd since October 2014.",
 		"highlights": [
 			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
 		],
 		"location": {
-			"address": "Your street address or mailing address",
-			"postalCode": "Your postal code (ZIP in the U.S.)",
-			"city": "Your city",
-			"countryCode": "Your country (e.g. USA)",
+			"address": "H.no 1225, Sector 10A",
+			"postalCode": "122001",
+			"city": "Gurgaon",
+			"countryCode": "India",
 			"region": "Your region (state in the U.S.)"
 		},
 		"profiles": [{
@@ -25,17 +25,17 @@
 			"url": "A URL to your user profile page"
 		}]
 	},
-	"work": [{
-		"company": "Your employer name",
-		"position": "Your job title",
-		"website": "The URL for the employer's website",
-		"startDate": "Your start date, in YYYY-MM-DD format",
-		"endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+	"Experience": {
+		"company": "Accenture Pvt Ltd",
+		"position": "Software Engineer",
+		"website": "www.accenture.com",
+		"startDate": "2014-10-08 ",
+		"endDate": "(leave blank for a current position)",
 		"summary": "A one-sentence to one-paragraph summary of this employer or position",
 		"highlights": [
 			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
 		]
-	}],
+	},
 	"additionalWork": [{
 		"company": "Job history that you would like to group separately (e.g. old jobs, academic positions, etc)",
 		"position": "All fields under the section are the same as for 'work'",
