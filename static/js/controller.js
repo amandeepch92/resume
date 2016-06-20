@@ -4,12 +4,17 @@ appControllers.controller('aboutMeController', function($scope,$http,$stateParam
     $scope.data = 'aman';
     $http.get("static/json/records.json")
     .then(function (response) {
-        $scope.myWelcome = response.data.records;
+        $scope.myWelcome = response.data.basics;
     });
    });	
 
 appControllers.controller('resumeController',function($scope,$http,$stateParams){
-     $scope.resume ='test';
+    $scope.resume = 'test';
+    $scope.data = 'aman';
+    $http.get("static/json/records.json")
+    .then(function (response) {
+        $scope.Exp = response.data.Experience;
+    });
 });
 
 appControllers.controller('contactController',function($scope,$http,$stateParams){
