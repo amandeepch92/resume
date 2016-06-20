@@ -1,5 +1,38 @@
 <h2>Resume Page</h2><p>
 
     Resume
-    {{resume}}
-</p>
+    {{resume}}</p>
+        {{Exp.position}}
+
+<div >
+
+  
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header active"><i class="material-icons">work</i>Experience</div><!--business_center-->
+              <div class="collapsible-body"><p>{{Exp.company}}<br />{{Exp.position}}</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">layers</i>Skills</div>
+              <div class="collapsible-body"><p>Give me a second ...</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">school</i>Education</div>
+              <div class="collapsible-body"><p>I don't like being a third wheel</div>
+            </li>
+             <li>
+              <div class="collapsible-header"><i class="material-icons">assessment</i>Achievements</div>
+              <div class="collapsible-body"><p>I don't like being a third wheel</div>
+            </li>
+             <li>
+              <div class="collapsible-header"><i class="material-icons">forum</i>Testimonials</div>
+              <div class="collapsible-body"><p>I don't like being a third wheel</div>
+            </li>
+        </ul>
+
+   
+
+     </div>
+
+
+<script>$('.collapsible').collapsible();</script>
