@@ -3257,7 +3257,7 @@ nav ul a span.badge {
   position: relative;
   height: 4px;
   display: block;
-  width: 100%;
+  width: 60%;
   background-color: #acece6;
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
@@ -3267,7 +3267,7 @@ nav ul a span.badge {
 .progress .determinate {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0%;
   bottom: 0;
   background-color: #26a69a;
   transition: width .3s linear;
@@ -5333,6 +5333,7 @@ a.waves-effect .waves-ripple {
 .collapsible-body p {
   margin: 0;
   padding: 2rem;
+   //padding: 9px 15px;
 }
 
 .side-nav .collapsible,
