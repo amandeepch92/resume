@@ -29,9 +29,10 @@
 		"company": "Accenture Pvt Ltd",
 		"position": "Software Engineer",
 		"website": "www.accenture.com",
+		"period":"October 2014- Till Now",
 		"startDate": "2014-10-08 ",
 		"endDate": "(leave blank for a current position)",
-		"summary": "A one-sentence to one-paragraph summary of this employer or position",
+		"summary": "I Created Automation Scripts which help in decrease the human load & increase productivity. I was responsible for the Quality Assurance for the deliverables.",
 		"highlights": [
 			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
 		]
@@ -48,17 +49,18 @@
 		]
 	}],
 
-	"education": [{
-		"institution": "Your school name",
-		"area": "Your area of study or degree earned",
-		"studyType": "",
-		"startDate": "Your start date, in YYYY-MM-DD format",
+	"education": {
+		"institution": "The Technological Institute of Textile & Sciences, Bhiwani",
+		"period":"2010-2014",
+		"area": "B.tech Information technology",
+		"studyType": "Information technology",
+		"startDate": "2010-07-30",
 		"endDate": "Your completion date, in YYYY-MM-DD format",
-		"gpa": "",
+		"gpa": "68%",
 		"courses": [
 			""
 		]
-	}],
+	},
 	"skills": [{
 		"name": "A category of job skills (e.g. 'Programming Languages')",
 		"level": "",
