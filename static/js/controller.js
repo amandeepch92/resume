@@ -1,6 +1,6 @@
 var appControllers = angular.module('appControllers',[]);
 
-appControllers.controller('aboutMeController', function($scope,$http,$stateParams,$state){
+appControllers.controller('aboutMeController', function($scope,$http,$stateParams){
     $scope.data = 'aman';
     $http.get("static/json/records.json")
     .then(function (response) {
@@ -14,6 +14,7 @@ appControllers.controller('resumeController',function($scope,$http,$stateParams)
     $http.get("static/json/records.json")
     .then(function (response) {
         $scope.Exp = response.data.Experience;
+        $scope.education = response.data.education;
     });
 });
 
