@@ -1,8 +1,5 @@
-<h2>Resume Page</h2><p>
 
-    Resume
-    {{resume}}</p>
-        {{Exp.position}}
+   
 
 <div >
 
@@ -54,8 +51,36 @@
               </div>
             </li>
              <li>
-              <div class="collapsible-header"><i class="material-icons">assessment</i>Achievements</div>
-              <div class="collapsible-body"><p>I don't like being a third wheel</div>
+              <div class="collapsible-header"><i class="material-icons">assessment</i>Project</div>
+              <div class="collapsible-body">
+                  <div class="row">
+                      <div class="col s2 l2 m2">
+                          {{project1.Duration}}<br />
+                          {{project1.Projectname}}<br />
+                          {{project1.Client}}
+                      </div>
+                      <div class="col s4 l4 m4">
+                         <h4> {{project1.Post}}</h4><br />
+                          {{project1.Description}}<br/>
+                        Responsibilities:  {{project1.Responsibilities}}
+                      </div>
+                  </div>
+                 <div class="row">
+                      <div class="col s2 l2 m2">
+                           {{project2.Duration}}<br />
+                          {{project2.Projectname}}<br />
+                          {{project2.Client}}
+                      </div>
+                      <div class="col s4 l4 m4">
+                           <h4> {{project2.Post}}</h4><br />
+                          {{project2.Description}}<br/>
+                        Responsibilities:  {{project2.Responsibilities}}
+                      </div>
+                  </div>
+
+
+
+              </div>
             </li>
              <li>
               <div class="collapsible-header"><i class="material-icons">forum</i>Testimonials</div>
