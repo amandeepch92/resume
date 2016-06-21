@@ -3257,7 +3257,7 @@ nav ul a span.badge {
   position: relative;
   height: 4px;
   display: block;
-  width: 60%;
+  width: 100%;
   background-color: #acece6;
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
@@ -3267,7 +3267,7 @@ nav ul a span.badge {
 .progress .determinate {
   position: absolute;
   top: 0;
-  left: 0%;
+  left: 0;
   bottom: 0;
   background-color: #26a69a;
   transition: width .3s linear;
@@ -4088,8 +4088,8 @@ nav {
   color: #fff;
   background-color: #ee6e73;
   width: 100%;
-  height: 74px;
-  line-height: 10px;
+  height: 56px;
+  line-height: 56px;
 }
 
 nav a {
@@ -4101,8 +4101,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 2rem;
-  height: 74px;
-  line-height: 10px;
+  height: 56px;
+  line-height: 56px;
 }
 
 nav .nav-wrapper {
@@ -4243,7 +4243,7 @@ nav .input-field label.active {
 
 .navbar-fixed {
   position: relative;
-  height: 74px;
+  height: 56px;
   z-index: 998;
 }
 
@@ -4253,18 +4253,18 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 74px;
-    line-height: 10px;
+    height: 64px;
+    line-height: 64px;
   }
   .navbar-fixed {
-    height: 78px;
+    height: 64px;
   }
 }
 
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
-  src: url("../../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
   font-weight: 200;
 }
 
@@ -5333,7 +5333,6 @@ a.waves-effect .waves-ripple {
 .collapsible-body p {
   margin: 0;
   padding: 2rem;
-   //padding: 9px 15px;
 }
 
 .side-nav .collapsible,
