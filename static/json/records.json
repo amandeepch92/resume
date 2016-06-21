@@ -68,4 +68,29 @@
 			"Keywords under this category (e.g. 'Java', 'C++', etc)"
 		]
 	}]
+	,
+	"Project1":{
+	  
+	  "Description":"CIO-08 is a Finance outsourcing project, where all the business deals are evaluated with the help of a excel based tool DATA, which is based on Dot Net"
+		,"Client":"Accenture Pvt Ltd"  ,
+		"Projectname":"CIO-08(OutSourcing Finance) ",
+		"Role":"Software Engineer",
+		"Post":"Automation & Manual Tester",
+		"Duration":"December 2014-January 2016",
+		"Responsibilities":"Automation of Costing module on UFT."
+		
+	}
+	,
+	"Project2":{
+	  
+	  "Description":"Costing & Pricing Engine is a tool used for getting client data & providing a estimate for any particular deal.",
+		"Client":"Accenture Pvt Ltd",
+		"Projectname":"Cost & Pricing Engine ",
+		"Role":"Software Engineer",
+		"Post":"Automation & Manual Tester",
+		"Duration":"January 2016 to till date",
+		"Responsibilities":"QA Requirement Analysis."
+	}
+
+
 }
