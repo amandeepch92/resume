@@ -3,14 +3,20 @@
 
 <div >
 
-  
+ 
+
         <ul class="collapsible" data-collapsible="accordion">
             <li>
               <div class="collapsible-header active"><i class="material-icons">work</i>Experience</div><!--business_center-->
               <div class="collapsible-body"><div class="row" >
                   <div class="col s2 m2 l2">{{Exp.period}}<br/>{{Exp.company}}<br/><img src="/static/icons/Accenture.png" height="100px" width="100px"></div> 
                     <div class="col s5 m5 l5"><h4>{{Exp.position}}</h4><br/>
-                        {{Exp.summary}}<br/>{{Exp.website}}<br/>
+                       
+                       <div class="card-panel">
+         <blockquote> 
+                         {{Exp.summary}}<br/>{{Exp.website}}<br/>
+             </blockquote>
+  </div>
                     </div>         </div></div>
             </li>
             <li>
@@ -44,7 +50,14 @@
                 <div class="row">
                    <div class="col s2 m2 l2">{{education.period}}<br/>{{education.institution}}<br/><img src="/static/icons/titsbhiwani.png" height="100px" width="100px"></div> 
                     <div class="col s5 m5 l5"><h4>{{education.area}}</h4><br/>
-                        Start Date:{{education.startDate}}<br/>
+                       
+                        
+   <div class="card-panel">
+         <blockquote>
+     
+                         Start Date:{{education.startDate}}<br/>
+             </blockquote>
+       </div>
                     </div> 
                   </div>
 
@@ -61,20 +74,36 @@
                       </div>
                       <div class="col s4 l4 m4">
                          <h4> {{project1.Post}}</h4><br />
+
+   <div class="card-panel">
+         <blockquote>
+     
                           {{project1.Description}}<br/>
                         Responsibilities:  {{project1.Responsibilities}}
+             </blockquote>
+       </div>
                       </div>
                   </div>
                  <div class="row">
                       <div class="col s2 l2 m2">
+                   
+          <p >
                            {{project2.Duration}}<br />
                           {{project2.Projectname}}<br />
                           {{project2.Client}}
+              </p>
+                           
                       </div>
                       <div class="col s4 l4 m4">
                            <h4> {{project2.Post}}</h4><br />
+                          
+   <div class="card-panel">
+         <blockquote>
+     
                           {{project2.Description}}<br/>
                         Responsibilities:  {{project2.Responsibilities}}
+             </blockquote>
+       </div>
                       </div>
                   </div>
 
