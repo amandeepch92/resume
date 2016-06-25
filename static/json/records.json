@@ -8,7 +8,7 @@
 		"phone": "9980758589",
 		"degree": "",
 		"website": "Your website URL",
-		"summary": "I'm Software Developer in Accenture Pvt Ltd since October 2014.",
+		"summary": "Hello! I'm Anil Kumar Sheoran and I am a Website Developer and Automation Tester, currently working as Software Developer in Accenture Pvt Ltd.",
 		"highlights": [
 			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
 		],
@@ -51,10 +51,12 @@
 
 	"education": {
 		"institution": "The Technological Institute of Textile & Sciences, Bhiwani",
+		"university":"MDU Rhotak",
 		"period":"2010-2014",
 		"area": "B.tech Information technology",
 		"studyType": "Information technology",
 		"startDate": "2010-07-30",
+		"qualification":"Bachalor Of Technology",
 		"endDate": "Your completion date, in YYYY-MM-DD format",
 		"gpa": "68%",
 		"courses": [
