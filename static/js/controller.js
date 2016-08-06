@@ -14,6 +14,7 @@ appControllers.controller('resumeController',function($scope,$http,$stateParams)
         $scope.education = response.data.education;
         $scope.project1 = response.data.Project1;
         $scope.project2 = response.data.Project2;
+        $scope.project3 = response.data.Project3;
     });
 });
 
