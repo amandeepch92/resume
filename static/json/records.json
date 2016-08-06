@@ -75,11 +75,15 @@
 	  
 	  "Description":"CIO-08 is a Finance outsourcing project, where all the business deals are evaluated with the help of a excel based tool DATA, which is based on Dot Net"
 		,"Client":"Accenture Pvt Ltd"  ,
-		"Projectname":"CIO-08(OutSourcing Finance) ",
+		"Projectname":"Online Resume   ",
 		"Role":"Software Engineer",
-		"Post":"Automation & Manual Tester",
+		"Post":"Angualr Js developer",
 		"Duration":"December 2014-January 2016",
-		"Responsibilities":"Automation of Costing module on UFT."
+		"Responsibilities1":"Developing rich responsive user Interface websites on designed and behavior specs.",
+		"Responsibilities2":"Develop application using Angular JS to implement Single Page Architecture(SPA).",
+		"Responsibilities3":"Used angular to consume restful services.",
+		"Responsibilities4":"Used Angular JS to consume Restful Services using SQL DB.",
+		"Responsibilities5":"Created a modular design using Ui-routers."
 		
 	}
 	,
@@ -87,12 +91,29 @@
 	  
 	  "Description":"Costing & Pricing Engine is a tool used for getting client data & providing a estimate for any particular deal.",
 		"Client":"Accenture Pvt Ltd",
-		"Projectname":"Cost & Pricing Engine ",
-		"Role":"Software Engineer",
+		"Projectname":"CIO-08(OutSourcing Finance)",
+		"Role":"Associate Software Engineer",
 		"Post":"Automation & Manual Tester",
 		"Duration":"January 2016 to till date",
-		"Responsibilities":"QA Requirement Analysis."
+		"Responsibilities1":"Automation of Costing module on UFT.",
+		"Responsibilities2":"Automation of CVR module in javascript.",
+		"Responsibilities3":"Writing Test Cases",
+		"Responsibilities4":"Participating in walkthroughs with developers, analysts and business users.",
+		"Responsibilities5":"Upload all the deliverables and reference documents on the Shared folder for onshore reference."
+	},
+"Project3":{
+	  
+	  "Description":"Costing & Pricing Engine is a tool used for getting client data & providing a estimate for any particular deal.",
+		"Client":"Accenture Pvt Ltd",
+		"Projectname":"Cost & Pricing Engine ",
+		"Role":"Software Engineer",
+		"Post":"Angular js Developer",
+		"Duration":"January 2016 to till date",
+		"Responsibilities1":"Developing rich responsive user Interface websites on designed and behavior specs.",
+		"Responsibilities2":"Develop application using Angular JS to implement Single Page Architecture(SPA).",
+		"Responsibilities3":"Used angular to consume restful services.",
+		"Responsibilities4":"-	Worked on Angular js (creating controllers & custom directives).",
+		"Responsibilities5":"Created a modular design using Ui-routers."
 	}
-
 
 }
