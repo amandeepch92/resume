@@ -4,12 +4,12 @@
 }
 .nav{
 	 height: 74px;		  
-	 height: 56px;
+	// height: 56px;
      line-height: 10px;
 }
 nav i,nav [class^="mdi-"],nav [class*="mdi-"],nav i.material-icons{
 	height: 74px;
-	line-height:10px;
+	//line-height:10px;
 }
 .navbar-fixed{
 	height: 74px;
@@ -24,6 +24,6 @@ nav i,nav [class^="mdi-"],nav [class*="mdi-"],nav i.material-icons{
       line-height: 10px;
 	} 
 	.navbar-fixed {	
-	  height: 78px;
+	  height: 74px;
 	} 
 }		

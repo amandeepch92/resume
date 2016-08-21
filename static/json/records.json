@@ -77,7 +77,7 @@
 		,"Client":"Accenture Pvt Ltd"  ,
 		"Projectname":"Online Resume  ",
 		"Role":"Software Engineer",
-		"Post":"Angualr Js developer",
+		"Post":"Angular Js developer",
 		"Duration":"December 2014-January 2016",
 		"Responsibilities1":"Developing rich responsive user Interface websites on designed and behavior specs.",
 		"Responsibilities2":"Develop application using Angular JS to implement Single Page Architecture(SPA).",
@@ -112,7 +112,7 @@
 		"Responsibilities1":"Developing rich responsive user Interface websites on designed and behavior specs.",
 		"Responsibilities2":"Develop application using Angular JS to implement Single Page Architecture(SPA).",
 		"Responsibilities3":"Used angular to consume restful services.",
-		"Responsibilities4":"-	Worked on Angular js (creating controllers & custom directives).",
+		"Responsibilities4":"Worked on Angular js (creating controllers & custom directives).",
 		"Responsibilities5":"Created a modular design using Ui-routers."
 	}
 
