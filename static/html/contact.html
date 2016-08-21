@@ -3,25 +3,25 @@
     <div class="row">
          <div class="input-field col s12">
             Name:
-               <textarea id="Textarea1" id="name" type="name" placeholder="Name" class="validate"></textarea>
+               <textarea id="Textarea1" id="name" type="name" placeholder="Name" class="validate" ng-model="form.name"></textarea>
            
          </div>
     </div>
     <div class="row">
        <div class="input-field col s12">
-          <input placeholder="Email" id="email" type="email" class="validate">
+          <input placeholder="Email" id="email" type="email" class="validate" ng-model="form.email">
           <label for="Email">Email</label>
        </div>
     </div>			
     <div class="row">
        <div class="input-field col s12">
-          <input placeholder="Comments" id="comments" type="text"  >
+          <input placeholder="Comments" id="comments" type="text" ng-model="form.comment"  >
           <label for="comments">Comments</label>
        </div>
     </div>
     <div class="row">
        <div class="input-field col s12">
-           <button class="btn waves-effect waves-teal"><input  id="Text1" type="button" value="Submit"  ></button>
+           <button class="btn waves-effect waves-teal" ng-disabled="((!form.comment) || (!form.name) || (!form.email)) " ng-click="submitclicked()">Submit</button>
        </div>
     </div>
     <div class="row">
