@@ -19,7 +19,11 @@ appControllers.controller('resumeController',function($scope,$http,$stateParams)
 });
 
 appControllers.controller('contactController',function($scope,$http,$stateParams){
-     $scope.contact = 'contacts'
+     $scope.contact = 'contacts';
+    $scope.submitclicked=function () {
+        alert("Button is Enabled");
+
+    }
 });
 
 appControllers.controller('resourceController',function($scope,$http,$stateParams){
