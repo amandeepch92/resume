@@ -1,4 +1,4 @@
-<h2>Contact</h2>
+<!--     <h2>Contact</h2>
 <form class="col s12">
     <div class="row">
          <div class="input-field col s12">
@@ -31,4 +31,54 @@
         <b>Contact Number:</b>+91-9980758589
     </div>
 </form>
-
+ -->
+ <div >
+    <h2>Contact</h2>
+  <form class="col s12">
+      <div class="row">
+           <div class="input-field col s12">
+              First Name:
+                 <textarea id="Textarea1" id="name" type="name" placeholder="Name"  ng-model="firstName"></textarea>
+             
+           </div>
+      </div>
+      <div class="row">
+           <div class="input-field col s12">
+              Last Name:
+                 <textarea id="Textarea1" id="name" type="name" placeholder="Name"  ng-model="lastName"></textarea>
+             
+           </div>
+      </div>
+      <div class="row">
+         <div class="input-field col s12">
+            <input placeholder="Email" id="email" type="email"  ng-model="email">
+            <label for="Email">Email</label>
+         </div>
+      </div>      
+      <div class="row">
+         <div class="input-field col s12">
+             <button class="btn waves-effect waves-teal"  ng-click="submitclicked()">Submit</button>
+         </div>
+      </div>
+  </form>
+</div>
+<div>
+  <h2>Reterive All User Data</h2>
+    <button class="btn waves-effect waves-teal"  ng-click="reterivedata()">Reterive all user Data</button>
+    <!-- <div ng-repeat='n in reterivedata'> -->
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Second Name</th>
+            <th>Email Id</th>
+            <th>Created Date</th>
+          </tr>
+          <tr ng-repeat='n in reterived'>
+            <td>{{n.firstName}}</td>
+            <td>{{n.lastName}}</td>
+            <td>{{n.emailid}}</td>
+            <td>{{n.create_date}}</td>
+          </tr>
+        </table>
+    <!-- </div> -->
+</div>
