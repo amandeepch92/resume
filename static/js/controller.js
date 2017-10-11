@@ -36,7 +36,7 @@ appControllers.controller('contactController',function($scope,$http,$stateParams
        //  });
 
        $http({
-            url: "http://localhost:3001/api/userdata",
+            url: "http://localhost:3000/api/userdata",
             method: "POST",
             data: {
             'firstName': $scope.firstName,
@@ -60,7 +60,7 @@ appControllers.controller('contactController',function($scope,$http,$stateParams
        $scope.email=''
     };
     $scope.reterivedata=function(){
-         $http.get('http://localhost:3001/api/userdata').success( function(response) {
+         $http.get('http://localhost:3000/api/userdata').success( function(response) {
             $scope.reterived = response; 
         });
     }
